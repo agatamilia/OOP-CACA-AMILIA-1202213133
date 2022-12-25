@@ -6,9 +6,9 @@ public class Main {
         Restaurant rs = new Restaurant();
         int customerID, orderQty;
         try{
-            System.out.println("Masukan ID Pembeli:");
+            System.out.print("Masukan ID Pembeli: ");
             customerID = data.nextInt();
-            System.out.println("Masukan banyak pesanan: ");
+            System.out.print("Masukan banyak pesanan: ");
             orderQty = data.nextInt();
 
             Thread t1 = new Thread(rs);
